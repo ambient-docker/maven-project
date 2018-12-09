@@ -4,7 +4,7 @@ MAINTAINER herve Meftah <dockerlite@gmail.com>
 
 VOLUME /tmp
 
-ADD target/webapp*.war /tomcat/webapps/webapp.war
+ADD webapp/target/webapp*.war /tomcat/webapps/webapp.war
 
 RUN bash -c 'touch /tomcat/webapps/webapp.war'
 
