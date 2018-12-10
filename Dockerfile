@@ -34,7 +34,7 @@ ADD tomcat_conf/tomcat-users.xml /opt/apache-tomcat-${TOMCAT_VERSION}/conf/
 ADD tomcat_conf/context.xml /opt/apache-tomcat-${TOMCAT_VERSION}/webapps/manager/META-INF
 
 # Add target war file in tomcat 
-ADD webapp/target/webapp*.war /tomcat/webapps/webapp.war 
+ADD webapp/target/webapp*.war /opt/apache-tomcat-${TOMCAT_VERSION}/webapps/webapp.war 
 
 # Startup script
 ADD tomcat_conf/deploy-and-run.sh /opt/apache-tomcat-${TOMCAT_VERSION}/bin/
