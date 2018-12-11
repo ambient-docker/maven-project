@@ -1,1 +1,1 @@
-Hello, World Test-maven-project jenkins on docker ! ! ! !
+Hello, Test-maven-project jenkins on docker ! ! ! !
